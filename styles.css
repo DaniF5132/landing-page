@@ -3,3 +3,14 @@
     flex-direction: column;
 }
 
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.one_right a{
+    padding: 10px;
+    text-decoration: none;
+}
