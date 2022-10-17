@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    
     margin: 0;
     font-family: Roboto, sans-serif;
     display: flex;
@@ -9,16 +8,19 @@ body {
 }
 
 .one{
-    padding: 0px 200px;
+    padding: 20px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
 }
 
+
 .one_right a{
     padding: 10px;
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .two{
@@ -46,9 +48,11 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 18px;
 }
 .two_left h1{
     margin: 0;
+    font-size: 48px;
 }
 
 .two_left button {
@@ -74,6 +78,7 @@ body {
 .three_images {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .three_images .ima{
@@ -81,7 +86,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;   
+    text-align: center;   
+    font-size: 18px;
 }
 
 .three_images img{
@@ -94,26 +100,35 @@ body {
 .four{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items:center;
     padding: 100px 200px;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
     text-align: justify;
+    font-weight:300;
+    font-style: italic;
+    
 }
 
 .four .author{
     font-weight: bold;
+    align-self: flex-end;
 }
 
 .five{
     display: flex;
     margin: 100px 200px;
+    padding: 20px;
     background-color: #3882F6;
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
     color: #F9FAF8;
+}
+
+.five h2{
+    margin: 0;
 }
 
 .five button {
