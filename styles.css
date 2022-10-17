@@ -59,7 +59,7 @@ body {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
-    border:  #3882F6;
+    border-color:  #3882F6;
     padding: 5px 20px;   
 }
 
@@ -135,7 +135,7 @@ body {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
-    border: solid #F9FAF8;
+    border-color: #F9FAF8;
     padding: 5px 20px;   
 }
 
